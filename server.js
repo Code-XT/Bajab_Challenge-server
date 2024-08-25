@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 app.use(
   cors({
-    origin: "*", //all domain access **for developement only**
+    origin: "https://bajaj-challenge-pi.vercel.app", //all domain access **for developement only**
   })
 );
 app.use(bodyParser.json());
